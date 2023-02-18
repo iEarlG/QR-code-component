@@ -29,7 +29,8 @@ body {
 	padding: 0 1rem;
 }
 img {
-	width: 100%;
+	display: block;
+	max-width: 100%;
 	border-radius: 1rem;
 }
 .title {
@@ -44,8 +45,8 @@ a {
 	color: var(--dark-blue);
 	font-weight: 700;
 }
-header {
-	margin-bottom: 1rem;
+footer {
+	margin-top: 2rem;
 	text-align: center;
 	font-size: 0.75rem;
 }
